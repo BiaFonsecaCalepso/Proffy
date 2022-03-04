@@ -1,26 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Routes from "./routes"; //qdo o arquivo que está importado está escrito em Maiúsculo, quer dizer que é um Componente, em letra minúscula não é um componente.
+import "./assets/styles/global.css"; //importação direta, o código será injetado na aplicação
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return <Routes/>
 }
-
 export default App;

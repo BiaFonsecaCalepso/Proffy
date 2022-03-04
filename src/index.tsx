@@ -1,17 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom"; //Dom é quem manipula o HTML
+import App from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render( //StrictMode - alerta para potenciais problemas nas aplicação
+  <React.StrictMode> 
+      <App/>
+  </React.StrictMode>, 
+  document.getElementById("root")  //root é a tag inicial da aplicação - getElementByID roda em cima do body do index HTML na pasta public.
+)
