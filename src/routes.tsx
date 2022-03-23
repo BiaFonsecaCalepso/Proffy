@@ -6,7 +6,7 @@ import TeacherForm from "./pages/TeacherForm"
 
 function Routes () {
     return (<BrowserRouter>
-        <Route path="/" component={Home}/> {/*path / == home*/}
+        <Route path="/" exact component={Home}/> {/*path / == home*/}
         <Route path="/form" component={TeacherForm}/>
         {/* <Route path="/teachers" component={TeacherList}*/}
         
