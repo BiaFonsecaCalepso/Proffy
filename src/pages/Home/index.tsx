@@ -28,7 +28,7 @@ function Home (){
                         <img src={studyIcon} alt="Estudar"/>
                         Estudar
                     </Link>
-                    <Link to="/" className='give-classes'>
+                    <Link to="/form" className='give-classes'>
                         <img src={giveClassesIcon} alt="Dar Aulas"/>
                         Dar Aulas
                     </Link>
