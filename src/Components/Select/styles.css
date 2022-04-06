@@ -20,7 +20,9 @@
   outline: 0;
   padding: 0 1.6rem;
   font: 1.6rem Archivo;
+  color: #C1BCCC
 }
+
 .select-block:focus-within::after {
   width: calc(100% - 3.2rem);
   height: 2px;

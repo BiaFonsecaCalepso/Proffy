@@ -22,13 +22,18 @@ function Home (){
                         Sua plataforma de estudos online.
                     </h2>
                 </div> 
-                <img src={landingImg} className="hero-image" alt="Plataforma de estudos"/>
-                <div className='buttons-container'>
-                    <Link to="/" className='study'>
+
+                <img 
+                    src={landingImg} 
+                    className="hero-image" 
+                    alt="Plataforma de estudos"/>
+
+                <div className= "buttons-container">
+                    <Link to= "/teachers" className= "study">
                         <img src={studyIcon} alt="Estudar"/>
                         Estudar
                     </Link>
-                    <Link to="/form" className='give-classes'>
+                    <Link to= "/form" className= "give-classes">
                         <img src={giveClassesIcon} alt="Dar Aulas"/>
                         Dar Aulas
                     </Link>

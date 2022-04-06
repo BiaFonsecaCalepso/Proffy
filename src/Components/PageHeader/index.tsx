@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./styles.css"
+
 import logoImg from '../../assets/images/logo.svg';
 import backIcon from '../../assets/images/icons/back.svg';
 
+import "./styles.css"
+
 interface PageHeaderProps {
     title: string;
-    description: string;
+    description?: string; //o sinal de ? significa que a propriedade é opcional, ou seja, pode ou não ser passada.
 }
 
 const PageHeader: React.FC<PageHeaderProps> = (props) => {
